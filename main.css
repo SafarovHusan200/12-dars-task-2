@@ -1,0 +1,35 @@
+.container{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 10px solid #909090;
+}
+input{
+    display: none;
+}
+label i{
+    padding: 1rem;
+    font-size: 120px;
+    color: #fff;
+}
+label:hover i{
+    padding: 1rem;
+    font-size: 120px;
+    color: #909090;
+
+}
+
+input:checked + label{
+    background-color: blue;
+    border-color: blue;
+}
+input:checked + label i{
+    color: white;
+
+}
